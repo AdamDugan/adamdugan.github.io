@@ -26,11 +26,20 @@ const consoleOutput = document.querySelector("#console-output");
 const consoleButton = document.querySelector("#console-button");
 const consoleMessages = [
   '> warning("correlation is not causation")\nWarning message:\ncorrelation is not causation',
-  '> model_status$caffeine <- TRUE\n> fit$model\n[1] "converged"',
-  '> regulatory_grade_rwe(design = "thoughtful")\n[1] "more plausible"',
-  '> residual_confounding\n[1] "still invited to the meeting"',
-  '> launch_shiny_prototype()\nListening on http://127.0.0.1:3838',
-  '> propensity_score_balance\nAll SMDs < 0.1\nReviewer mood improved',
+  '> library(survival)\n> library(tableone)\n> library("please-let-this-balance")\nError in library("please-let-this-balance") :\n  there is no package called "please-let-this-balance"',
+  '> cobalt::bal.tab(ps_model)$Balance |> subset(Diff.Adj < 0.1) |> nrow()\n[1] 42',
+  '> cohort %>%\n+   dplyr::mutate(index_date = pmax(rx_date, dx_date)) %>%\n+   dplyr::filter(!is.na(index_date))\n# time zero has entered the chat',
+  '> fit <- survival::coxph(Surv(time, event) ~ trt + age + baseline_risk, data = analysis)\n> broom::glance(fit)$concordance\n[1] "respectable"',
+  '> ifelse(all(abs(smd) < 0.1), "ship it", "revisit design")\n[1] "revisit design"',
+  '> targets::tar_make()\n▶ started target propensity_model\n▶ started target km_plot\n✔ ended target reviewer_2_concern',
+  '> here::here("programs", "analysis_v17_final_final.R")\n[1] "/projects/rwe/programs/analysis_v17_final_final.R"',
+  '> renv::snapshot()\nThe following package(s) will be updated in the lockfile:\n# one package you forgot would break everything',
+  '> gtsummary::tbl_regression(fit, exponentiate = TRUE)\nError:\n! 95% CI overlaps with stakeholder expectations',
+  '> purrr::map(models, safely(run_model)) |> purrr::transpose()\n$errors\n[1] "1 immortal time bias" "1 factor level issue" "0 surprises"',
+  '> shiny::runApp("rwe-ops-dashboard")\nListening on http://127.0.0.1:3838\nWarning: package "shinydashboard" was built under mild deadline pressure',
+  '> usethis::use_package("dplyr")\n> usethis::use_package("rlang")\n> usethis::use_package("a little self control")\nError: package not available',
+  '> ggplot(analysis, aes(x = follow_up, color = treatment)) +\n+   geom_density()\nWarning:\nGroups appear balanced, statistician remains unconvinced',
+  '> tidyr::drop_na(endpoint)\n> nrow(analysis)\n[1] 18342\n> attr(analysis, "feeling")\n[1] "underpowered for the subgroup someone will ask about"',
 ];
 
 if (consoleOutput && consoleButton) {
