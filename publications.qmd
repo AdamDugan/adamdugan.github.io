@@ -2,6 +2,7 @@
 title: Publications
 ---
 
+```{=html}
 <div class="page-shell page-shell-inner">
   <section class="section reveal">
     <div class="section-heading">
@@ -38,3 +39,4 @@ title: Publications
     </p>
   </section>
 </div>
+```

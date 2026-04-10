@@ -2,6 +2,7 @@
 title: Experience
 ---
 
+```{=html}
 <div class="page-shell page-shell-inner">
   <section class="section reveal">
     <div class="section-heading">
@@ -69,3 +70,4 @@ title: Experience
     </div>
   </section>
 </div>
+```

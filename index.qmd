@@ -2,6 +2,7 @@
 title: Home
 ---
 
+```{=html}
 <div class="page-shell page-shell-inner">
   <section class="hero reveal">
     <div class="hero-copy">
@@ -138,3 +139,4 @@ title: Home
     <p>Built with Quarto structure in mind for easy GitHub Pages deployment.</p>
   </footer>
 </div>
+```

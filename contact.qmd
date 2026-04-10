@@ -2,6 +2,7 @@
 title: Contact
 ---
 
+```{=html}
 <div class="page-shell page-shell-inner">
   <section class="section contact-section reveal">
     <div class="section-heading">
@@ -35,3 +36,4 @@ title: Contact
     <p>Built as a Quarto-ready professional site.</p>
   </footer>
 </div>
+```

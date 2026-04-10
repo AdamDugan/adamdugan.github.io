@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - assets/images/**
+    - assets/docs/**
 
 website:
   title: "Adam J. Dugan, PhD"

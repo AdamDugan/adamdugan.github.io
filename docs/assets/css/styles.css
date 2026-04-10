@@ -600,7 +600,8 @@ h3 {
 }
 
 .quarto-title-banner,
-.quarto-title-block {
+.quarto-title-block,
+#title-block-header {
   display: none;
 }
 
