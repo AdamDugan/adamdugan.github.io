@@ -20,7 +20,7 @@ title: RWE Focus
         In practice, that means caring deeply about things like comparator strategy, time zero,
         confounding control, endpoint quality, sensitivity analyses, and the reproducibility of the
         underlying workflow. It also means building systems that make good decisions easier for
-        teams to repeat.
+        teams to repeat in biopharma environments where evidence quality and execution both matter.
       </p>
     </div>
   </section>
