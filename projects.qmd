@@ -7,7 +7,7 @@ title: Projects/Tools
   <section class="section reveal">
     <div class="section-heading">
       <p class="eyebrow">Projects/Tools</p>
-      <h2>R, tooling, and a few small experiments.</h2>
+      <h2>R, tooling, and a few small experiments</h2>
     </div>
     <div class="split-text">
       <p>

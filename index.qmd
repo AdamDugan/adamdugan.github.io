@@ -57,7 +57,7 @@ title: Home
   <section class="section section-intro reveal" id="about">
     <div class="section-heading">
       <p class="eyebrow">About</p>
-      <h2>Grounded in statistical rigor, built for practical impact.</h2>
+      <h2>Grounded in statistical rigor, built for practical impact</h2>
     </div>
     <div class="split-text">
       <p>
@@ -118,7 +118,7 @@ title: Home
   <section class="section reveal">
     <div class="section-heading">
       <p class="eyebrow">Selected Impact</p>
-      <h2>Where I tend to add value.</h2>
+      <h2>Where I tend to add value</h2>
     </div>
     <div class="card-grid">
       <article class="info-card">
@@ -155,7 +155,7 @@ title: Home
   <section class="section reveal">
     <div class="section-heading">
       <p class="eyebrow">Navigate</p>
-      <h2>A cleaner way to explore the site.</h2>
+      <h2>A cleaner way to explore the site</h2>
     </div>
     <div class="card-grid">
       <article class="info-card">

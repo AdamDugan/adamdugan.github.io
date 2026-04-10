@@ -7,7 +7,7 @@ title: RWE Focus
   <section class="section reveal">
     <div class="section-heading">
       <p class="eyebrow">RWE Focus</p>
-      <h2>How I think about strong real-world evidence work.</h2>
+      <h2>How I think about strong real-world evidence work</h2>
     </div>
     <div class="split-text">
       <p>
@@ -28,7 +28,7 @@ title: RWE Focus
   <section class="section reveal">
     <div class="section-heading">
       <p class="eyebrow">What Matters</p>
-      <h2>Principles I keep coming back to.</h2>
+      <h2>Principles I keep coming back to</h2>
     </div>
     <div class="card-grid">
       <article class="info-card">
