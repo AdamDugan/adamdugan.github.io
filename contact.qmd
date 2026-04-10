@@ -24,7 +24,7 @@ title: Contact
         Connect on LinkedIn
       </a>
       <a class="button button-secondary" href="mailto:adam.j.dugan@gmail.com">Email Me</a>
-      <a class="button button-secondary" href="Adam-J-Dugan-Resume.pdf" download>
+      <a class="button button-secondary" href="assets/docs/Adam-J-Dugan-Resume.pdf" download>
         Download Resume
       </a>
     </div>

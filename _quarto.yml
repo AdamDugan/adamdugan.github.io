@@ -22,7 +22,7 @@ website:
 format:
   html:
     theme: none
-    css: styles.css
+    css: assets/css/styles.css
     toc: false
     title-block: false
     include-in-header: includes/head.html

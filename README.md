@@ -1,39 +1,75 @@
 # Adam J. Dugan Website
 
-This repo now contains a lightweight static personal website that is ready to publish with GitHub Pages.
+This repository contains a multi-page Quarto website for Adam J. Dugan, PhD.
 
-## Files
+## Project Structure
 
-- `index.html` contains the site structure and content.
-- `styles.css` contains the visual design and responsive layout.
-- `script.js` adds simple reveal-on-scroll animation and the footer year.
+- `_quarto.yml`
+  Main Quarto project configuration, including navigation and output settings.
+- `index.qmd`
+  Homepage.
+- `experience.qmd`
+  Career timeline and professional background.
+- `projects.qmd`
+  Projects, tools, and interactive easter eggs.
+- `publications.qmd`
+  Selected publications and Google Scholar link.
+- `rwe-focus.qmd`
+  Perspective on real-world evidence and evidence-generation principles.
+- `contact.qmd`
+  Contact options and resume download.
+- `includes/`
+  Shared HTML includes for fonts, canvas background, and shared scripts.
+- `assets/css/`
+  Shared site styles.
+- `assets/js/`
+  Shared JavaScript for animations and interactive elements.
+- `assets/images/`
+  Images used by the site.
+- `assets/docs/`
+  Downloadable documents such as the resume.
+- `docs/`
+  Rendered site output for GitHub Pages.
 
-## Publish With GitHub Pages
+## Local Development
 
-### Option 1: Publish at `adamdugan.github.io` (recommended)
+1. Install the Quarto CLI, not just the R package.
+2. Open a terminal in this repository.
+3. Verify Quarto is available:
 
-To use the root GitHub Pages URL `https://adamdugan.github.io`, the GitHub account must be `adamdugan` and the repository name must be exactly `adamdugan.github.io`.
+   ```powershell
+   quarto --version
+   ```
 
-1. Rename this repository from `adams-website` to `adamdugan.github.io`, or create a new repo with that exact name and move these files into it.
-2. Push the site files to the default branch.
-3. In the GitHub repository, open `Settings > Pages`.
-4. Under `Build and deployment`, choose `Deploy from a branch`.
-5. Select the default branch and `/ (root)` folder.
-6. Save, then wait for GitHub to publish the site at `https://adamdugan.github.io`.
+4. Render the site:
 
-### Option 2: Keep this repo name
+   ```powershell
+   quarto render
+   ```
 
-If the repository stays named `adams-website`, GitHub Pages will publish it as a project site instead, usually at:
+5. Preview locally if desired:
 
-- `https://adamdugan.github.io/adams-website`
+   ```powershell
+   quarto preview
+   ```
 
-1. Push the repo to GitHub.
-2. In the GitHub repository, open `Settings > Pages`.
-3. Under `Build and deployment`, choose `Deploy from a branch`.
-4. Select the default branch and `/ (root)` folder.
-5. Save, then wait for GitHub to publish the site.
+## GitHub Pages Deployment
+
+This project is configured to render into `docs/`.
+
+1. Run `quarto render`.
+2. Commit the source changes and the generated `docs/` output.
+3. Push to GitHub.
+4. In GitHub, open `Settings > Pages`.
+5. Set the source to `Deploy from a branch`.
+6. Choose the default branch and `/docs` folder.
+
+If the repository is named `adamdugan.github.io`, the site will publish at:
+
+- `https://adamdugan.github.io/`
 
 ## Notes
 
-- The current copy was drafted from public information found online, including LinkedIn, Google Scholar, and PubMed.
-- You will likely want to replace some wording with first-person copy and add a headshot, direct contact method, CV link, or project highlights.
+- The current site preserves custom CSS and JavaScript rather than relying on a default Quarto theme.
+- Interactive features currently live on the `Projects/Tools` page.
+- The older single-page static site entrypoint has been superseded by the Quarto source files.
