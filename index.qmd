@@ -16,7 +16,9 @@ title: Home
         I'm Adam Dugan, a biostatistics leader working at the intersection of science, product,
         and applied analytics. I currently serve as Senior Director, Biostatistics at Datavant,
         where I lead biostatistics and statistical programming within the Science organization and
-        help shape how high-quality real-world evidence gets generated.
+        help shape how high-quality real-world evidence gets generated. I bring nearly 11 years of
+        full-time biostatistics experience, including full-time industry and academic roles held
+        during and after my PhD training.
       </p>
       <div class="hero-actions">
         <a class="button button-primary" href="experience.html">View Experience</a>

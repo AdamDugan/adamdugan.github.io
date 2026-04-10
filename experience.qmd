@@ -19,7 +19,9 @@ title: Experience
         Across Datavant, Tempus AI, 23andMe, and earlier University of Kentucky roles, the common
         thread has been building high-quality statistical work that is scientifically rigorous,
         operationally useful, and relevant to real healthcare decisions, especially in contexts
-        that align with biopharma evidence generation and development.
+        that align with biopharma evidence generation and development. That includes nearly 11
+        years of full-time biostatistics work, including the years I worked full time while also
+        completing my PhD.
       </p>
     </div>
     <div class="timeline">
