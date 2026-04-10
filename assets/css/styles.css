@@ -61,6 +61,55 @@ body::before {
   padding: 1.5rem 0 3rem;
 }
 
+.site-tabs-wrap {
+  position: sticky;
+  top: 1rem;
+  z-index: 11;
+  width: min(calc(100% - 2rem), var(--max-width));
+  margin: 1.5rem auto 2rem;
+}
+
+.site-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 1rem 1.1rem;
+  background: rgba(14, 25, 28, 0.84);
+  border: 1px solid rgba(184, 224, 216, 0.1);
+  border-radius: 999px;
+  backdrop-filter: blur(16px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
+}
+
+.site-tab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.6rem;
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    background-color 180ms ease,
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.site-tab:hover,
+.site-tab:focus-visible {
+  color: var(--teal);
+  background: rgba(255, 255, 255, 0.05);
+  transform: translateY(-1px);
+}
+
+.site-tab.is-active {
+  color: #081013;
+  background: var(--teal);
+}
+
 .site-header {
   position: sticky;
   top: 1rem;
@@ -528,12 +577,14 @@ h3 {
 
   .site-header,
   .site-footer,
-  .navbar {
+  .navbar,
+  .site-tabs {
     display: grid;
   }
 
   .site-header,
-  .navbar {
+  .navbar,
+  .site-tabs {
     border-radius: 28px;
   }
 
@@ -559,7 +610,8 @@ h3 {
   }
 
   .site-header,
-  .navbar {
+  .navbar,
+  .site-tabs-wrap {
     position: static;
     margin-bottom: 1rem;
   }
