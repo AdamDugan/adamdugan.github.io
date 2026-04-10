@@ -29,28 +29,94 @@ title: Experience
       <article class="timeline-item">
         <div class="timeline-marker"></div>
         <div class="timeline-content">
-          <p class="timeline-period">Recent</p>
-          <h3>Biostatistics leadership in industry</h3>
-          <p class="timeline-org">Tempus AI and 23andMe</p>
+          <p class="timeline-period">September 2023-present</p>
+          <h3>Lead Real World Evidence Biostatistician, Medical Affairs</h3>
+          <p class="timeline-org">Tempus AI</p>
           <p>
-            Before Datavant, I held biostatistics roles at Tempus AI and 23andMe. Those
-            experiences expanded my perspective on analytics in industry settings and deepened my
-            interest in building practical, high-impact systems at the interface of data science,
-            health research, and product development.
+            At Tempus AI, I collaborated with external KOLs on public-facing, peer-reviewed
+            genomic oncology research using real-world clinical and molecular data. I acted as a
+            statistical lead for Medical Affairs by reviewing study proposals, developing
+            statistical analysis plans, refining best practices for cohort extraction and
+            programming, and mentoring junior biostatisticians.
+          </p>
+          <p>
+            I also led biostatistical work within Clinical Development related to treatment
+            response monitoring and minimal residual disease in advanced cancers, and developed AI
+            tools, internal agents, and reusable packages to improve efficiency and standardize
+            workflows.
           </p>
         </div>
       </article>
       <article class="timeline-item">
         <div class="timeline-marker"></div>
         <div class="timeline-content">
-          <p class="timeline-period">Earlier career</p>
-          <h3>Faculty and research leadership at the University of Kentucky</h3>
-          <p class="timeline-org">Assistant Professor and Biostatistician</p>
+          <p class="timeline-period">June 2022-August 2023</p>
+          <h3>Biostatistician, Health Data Analysis, Computational Biology</h3>
+          <p class="timeline-org">23andMe Therapeutics</p>
           <p>
-            Earlier in my career, I spent years at the University of Kentucky, first as a
-            biostatistician and later as an Assistant Professor. That work gave me a strong
-            foundation in study design, collaborative research, and the practical realities of
-            supporting scientific teams across a wide range of clinical and translational projects.
+            At 23andMe, I worked as a biostatistical partner on cross-functional teams supporting
+            preclinical therapeutic pipelines through observational study design, applied analyses,
+            and methodologic work in bias correction, disease clustering, and causal inference.
+          </p>
+          <p>
+            I also supported ongoing oncology clinical trial programs through statistical input on
+            analyses and sample size calculations while overseeing work performed by external CROs.
+          </p>
+        </div>
+      </article>
+      <article class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <p class="timeline-period">September 2021-June 2022</p>
+          <h3>Assistant Professor, Biostatistics</h3>
+          <p class="timeline-org">University of Kentucky, College of Public Health</p>
+          <p>
+            I collaborated as a co-investigator on the design, analysis, interpretation, and
+            reporting of observational and randomized biomedical studies, along with externally
+            funded research proposals. I also supported the NIH-funded CCTS BERD core, consulting
+            on study design, sample selection, and statistical analysis for projects that often
+            relied on claims and electronic health record data.
+          </p>
+          <p>
+            This role also included manuscript peer review, graduate student oversight, and broad
+            collaboration across translational research teams.
+          </p>
+        </div>
+      </article>
+      <article class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <p class="timeline-period">January 2021-June 2022</p>
+          <h3>Lead Biostatistician / Lead Biomedical Data Scientist</h3>
+          <p class="timeline-org">
+            University of Kentucky, Biostatistics Consulting and Interdisciplinary Research
+            Collaboration Lab (CIRCL)
+          </p>
+          <p>
+            I was a founding member of CIRCL and helped develop best practices for project
+            management, statistical consulting, programming, visualization, reporting, and results
+            communication. I also managed and mentored staff biostatisticians and biomedical data
+            scientists while serving as a statistical and investigational lead for multiple
+            cross-functional research groups.
+          </p>
+          <p>
+            A major part of the role was leading and reviewing statistical analysis plans for
+            external projects and collaborative research efforts.
+          </p>
+        </div>
+      </article>
+      <article class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <p class="timeline-period">May 2015-August 2021</p>
+          <h3>Biostatistician</h3>
+          <p class="timeline-org">University of Kentucky, College of Medicine</p>
+          <p>
+            I collaborated independently with departments across the College of Medicine on study
+            design, sample selection, statistical analysis, interpretation, and dissemination for
+            biomedical research. The work spanned surgical oncology, urology, plastic surgery,
+            cardiothoracic surgery, cardiology, pediatrics, emergency medicine, radiology, and
+            more.
           </p>
         </div>
       </article>
@@ -66,6 +132,45 @@ title: Experience
             approach evidence generation today.
           </p>
         </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <div class="section-heading">
+      <p class="eyebrow">Methods and Platforms</p>
+      <h2>Technical range</h2>
+    </div>
+    <div class="card-grid">
+      <article class="info-card">
+        <h3>Statistical Computing</h3>
+        <p>
+          Extensive experience in R, RStudio/Posit, R Markdown, ggplot2, R Shiny, GitHub/version
+          control, SAS, LaTeX, and cluster computing environments including Slurm.
+        </p>
+      </article>
+      <article class="info-card">
+        <h3>Real-World and Clinical Methods</h3>
+        <p>
+          Applied work in observational study design, causal inference, time-to-event analysis,
+          competing risks, mixed models, generalized estimating equations, and clinical research
+          support.
+        </p>
+      </article>
+      <article class="info-card">
+        <h3>Modern Analytic Workflows</h3>
+        <p>
+          Experience building analytic pipelines, statistical packages, visualization tools, and
+          reusable reporting workflows that help teams move from ad hoc analyses to more durable
+          systems.
+        </p>
+      </article>
+      <article class="info-card">
+        <h3>Genomics and Omics Data</h3>
+        <p>
+          Familiar with genomic and molecular analysis workflows including RNA-seq, NanoString,
+          GWAS, gene-based inference, eQTL analyses, and related translational applications.
+        </p>
       </article>
     </div>
   </section>

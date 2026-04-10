@@ -55,15 +55,6 @@ body::before {
   mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.25), transparent 70%);
 }
 
-.mouse-trail-canvas {
-  position: fixed;
-  inset: 0;
-  z-index: 3;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
-
 .page-shell {
   width: min(calc(100% - 2rem), var(--max-width));
   margin: 0 auto;
@@ -370,8 +361,7 @@ h3 {
 }
 
 .card-grid,
-.publication-list,
-.lab-grid {
+.publication-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
@@ -461,124 +451,6 @@ h3 {
   text-align: center;
 }
 
-.console-card,
-.study-card-game {
-  padding: 1.4rem;
-  border-radius: var(--radius-md);
-  background: var(--surface-strong);
-  border: 1px solid var(--line);
-}
-
-.console-topbar {
-  display: flex;
-  gap: 0.45rem;
-  margin-bottom: 1rem;
-}
-
-.console-topbar span {
-  width: 0.75rem;
-  height: 0.75rem;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.18);
-}
-
-.console-topbar span:first-child {
-  background: #d07f61;
-}
-
-.console-topbar span:nth-child(2) {
-  background: #d7a45b;
-}
-
-.console-topbar span:nth-child(3) {
-  background: #57b4ab;
-}
-
-.console-label,
-.game-kicker,
-.study-pill-label {
-  margin: 0;
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--teal-soft);
-}
-
-.console-output {
-  min-height: 10.5rem;
-  margin: 0.9rem 0 1rem;
-  padding: 1rem;
-  overflow: auto;
-  border-radius: 16px;
-  border: 1px solid rgba(184, 224, 216, 0.08);
-  background: #0c1417;
-  color: #c6f0e9;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 0.96rem;
-  line-height: 1.65;
-  white-space: pre-wrap;
-}
-
-.console-button {
-  min-height: 2.9rem;
-}
-
-.game-copy,
-.game-note,
-.confidence-score span {
-  margin: 0.75rem 0 0;
-  color: var(--muted);
-  line-height: 1.7;
-}
-
-.study-card-game h3 {
-  margin-top: 0.5rem;
-}
-
-.study-stack {
-  display: grid;
-  gap: 0.8rem;
-  margin-top: 1.2rem;
-}
-
-.study-pill {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  padding: 0.95rem 1rem;
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(184, 224, 216, 0.08);
-}
-
-.study-pill strong,
-.confidence-score strong {
-  color: var(--ink);
-  font-size: 1rem;
-}
-
-.game-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 1.25rem;
-}
-
-.confidence-score {
-  display: grid;
-  gap: 0.2rem;
-}
-
-.confidence-score strong {
-  font-family: "Fraunces", serif;
-  font-size: 2rem;
-  line-height: 1;
-  color: var(--gold);
-}
-
 .contact-copy {
   max-width: 52rem;
   margin: 0 auto;
@@ -641,7 +513,6 @@ h3 {
   .hero,
   .split-text,
   .card-grid,
-  .lab-grid,
   .publication-list,
   .site-footer {
     grid-template-columns: 1fr;
@@ -716,12 +587,6 @@ h3 {
 
   .hero-actions {
     flex-direction: column;
-  }
-
-  .study-pill,
-  .game-footer {
-    flex-direction: column;
-    align-items: flex-start;
   }
 
   .button {
