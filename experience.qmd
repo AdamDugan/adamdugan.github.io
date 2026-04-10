@@ -1,0 +1,71 @@
+---
+title: Experience
+---
+
+<div class="page-shell page-shell-inner">
+  <section class="section reveal">
+    <div class="section-heading">
+      <p class="eyebrow">Experience</p>
+      <h2>Career path</h2>
+    </div>
+    <div class="timeline">
+      <article class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <p class="timeline-period">2026-present</p>
+          <h3>Senior Director, Biostatistics</h3>
+          <p class="timeline-org">Datavant (formerly Aetion)</p>
+          <p>
+            I lead the biostatistics and statistical programming functions within Datavant's
+            Science organization. My work focuses on building best practices for regulatory-grade
+            real-world evidence studies, developing internal tools like R packages and Shiny
+            applications, and partnering with product teams on future opportunities, including
+            thoughtful uses of AI. It is a role that combines scientific quality, team leadership,
+            and operational execution.
+          </p>
+        </div>
+      </article>
+      <article class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <p class="timeline-period">Recent</p>
+          <h3>Biostatistics leadership in industry</h3>
+          <p class="timeline-org">Tempus AI and 23andMe</p>
+          <p>
+            Before Datavant, I held biostatistics roles at Tempus AI and 23andMe. Those
+            experiences expanded my perspective on analytics in industry settings and deepened my
+            interest in building practical, high-impact systems at the interface of data science,
+            health research, and product development.
+          </p>
+        </div>
+      </article>
+      <article class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <p class="timeline-period">Earlier career</p>
+          <h3>Faculty and research leadership at the University of Kentucky</h3>
+          <p class="timeline-org">Assistant Professor and Biostatistician</p>
+          <p>
+            Earlier in my career, I spent years at the University of Kentucky, first as a
+            biostatistician and later as an Assistant Professor. That work gave me a strong
+            foundation in study design, collaborative research, and the practical realities of
+            supporting scientific teams across a wide range of clinical and translational projects.
+          </p>
+        </div>
+      </article>
+      <article class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <p class="timeline-period">Training</p>
+          <h3>PhD in Biostatistics</h3>
+          <p class="timeline-org">University of Kentucky</p>
+          <p>
+            My doctoral training centered on dementia, genetics, observational analysis, and
+            translational health science. It shaped the statistical rigor that still anchors how I
+            approach evidence generation today.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+</div>

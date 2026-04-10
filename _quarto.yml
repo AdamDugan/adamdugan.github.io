@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Adam J. Dugan, PhD"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: experience.qmd
+        text: Experience
+      - href: projects.qmd
+        text: Projects/Tools
+      - href: publications.qmd
+        text: Publications
+      - href: rwe-focus.qmd
+        text: RWE Focus
+      - href: contact.qmd
+        text: Contact
+
+format:
+  html:
+    theme: none
+    css: styles.css
+    toc: false
+    title-block: false
+    include-in-header: includes/head.html
+    include-before-body: includes/before-body.html
+    include-after-body: includes/after-body.html

@@ -1,0 +1,37 @@
+---
+title: Contact
+---
+
+<div class="page-shell page-shell-inner">
+  <section class="section contact-section reveal">
+    <div class="section-heading">
+      <p class="eyebrow">Contact</p>
+      <h2>Open to scientific collaboration and professional connection.</h2>
+    </div>
+    <p class="contact-copy">
+      This site is meant to be a simple professional home base. Over time, I plan to add selected
+      work in R, AI, and other tools that support modern evidence generation. For now, the easiest
+      way to connect is through LinkedIn or email, and you can also download my resume directly
+      below.
+    </p>
+    <div class="hero-actions">
+      <a
+        class="button button-primary"
+        href="https://www.linkedin.com/in/adamjdugan"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Connect on LinkedIn
+      </a>
+      <a class="button button-secondary" href="mailto:adam.j.dugan@gmail.com">Email Me</a>
+      <a class="button button-secondary" href="Adam-J-Dugan-Resume.pdf" download>
+        Download Resume
+      </a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>(c) <span id="year"></span> Adam J. Dugan, PhD</p>
+    <p>Built as a Quarto-ready professional site.</p>
+  </footer>
+</div>

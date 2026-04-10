@@ -24,6 +24,14 @@ html {
   scroll-behavior: smooth;
 }
 
+body.quarto-light,
+body.quarto-dark {
+  background:
+    radial-gradient(circle at top left, rgba(215, 164, 91, 0.18), transparent 28%),
+    radial-gradient(circle at top right, rgba(87, 180, 171, 0.14), transparent 30%),
+    linear-gradient(180deg, #101a1d 0%, var(--bg) 42%, #081013 100%);
+}
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -79,11 +87,53 @@ body::before {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
 }
 
+.navbar {
+  position: sticky;
+  top: 1rem;
+  z-index: 10;
+  width: min(calc(100% - 2rem), var(--max-width));
+  margin: 1.5rem auto 2rem;
+  padding: 1rem 1.25rem;
+  background: rgba(14, 25, 28, 0.82);
+  border: 1px solid rgba(184, 224, 216, 0.1);
+  border-radius: 999px;
+  backdrop-filter: blur(16px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link,
+.menu-text {
+  color: var(--ink) !important;
+  font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+  color: var(--muted) !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus-visible,
+.navbar-brand:hover,
+.navbar-brand:focus-visible {
+  color: var(--teal) !important;
+}
+
+#quarto-content main,
+.quarto-container {
+  max-width: none;
+}
+
+.page-shell-inner {
+  padding-top: 0;
+}
+
 .wordmark,
 .site-nav a,
 .button,
 .publication-card a,
-.supporting-link a {
+.supporting-link a,
+.info-card a {
   text-decoration: none;
 }
 
@@ -110,6 +160,8 @@ body::before {
 .site-nav a:focus-visible,
 .publication-card a:hover,
 .publication-card a:focus-visible,
+.info-card a:hover,
+.info-card a:focus-visible,
 .supporting-link a:hover,
 .supporting-link a:focus-visible {
   color: var(--teal);
@@ -543,6 +595,15 @@ h3 {
   padding: 1.5rem 0 0;
 }
 
+#quarto-content {
+  padding-top: 0;
+}
+
+.quarto-title-banner,
+.quarto-title-block {
+  display: none;
+}
+
 .site-footer p {
   margin: 0;
   font-size: 0.95rem;
@@ -586,11 +647,13 @@ h3 {
   }
 
   .site-header,
-  .site-footer {
+  .site-footer,
+  .navbar {
     display: grid;
   }
 
-  .site-header {
+  .site-header,
+  .navbar {
     border-radius: 28px;
   }
 
@@ -615,7 +678,8 @@ h3 {
     padding-top: 0.5rem;
   }
 
-  .site-header {
+  .site-header,
+  .navbar {
     position: static;
     margin-bottom: 1rem;
   }

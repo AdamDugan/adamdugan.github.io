@@ -1,0 +1,40 @@
+---
+title: Publications
+---
+
+<div class="page-shell page-shell-inner">
+  <section class="section reveal">
+    <div class="section-heading">
+      <p class="eyebrow">Selected Publications</p>
+      <h2>Recent and representative work</h2>
+    </div>
+    <div class="publication-list">
+      <article class="publication-card">
+        <h3>Association between WWOX/MAF variants and dementia-related neuropathologic endophenotypes</h3>
+        <p>Neurobiology of Aging, 2022</p>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/34852950/" target="_blank" rel="noreferrer">View on PubMed</a>
+      </article>
+      <article class="publication-card">
+        <h3>Analysis of genes implicated in risk for LATE-NC and hippocampal sclerosis</h3>
+        <p>Acta Neuropathologica Communications, 2021</p>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/34526147/" target="_blank" rel="noreferrer">View on PubMed</a>
+      </article>
+      <article class="publication-card">
+        <h3>Predicting in-hospital mortality after an in-hospital cardiac arrest</h3>
+        <p>Resuscitation Plus, 2021</p>
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8244474/" target="_blank" rel="noreferrer">Read article</a>
+      </article>
+      <article class="publication-card">
+        <h3>Improved survival following transarterial radioembolization</h3>
+        <p>Abdominal Radiology, 2021</p>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/33385248/" target="_blank" rel="noreferrer">View on PubMed</a>
+      </article>
+    </div>
+    <p class="supporting-link">
+      For a fuller list of papers and citations, visit
+      <a href="https://scholar.google.com/citations?user=WxaYEwoAAAAJ&hl=en" target="_blank" rel="noreferrer">
+        my Google Scholar profile
+      </a>.
+    </p>
+  </section>
+</div>
