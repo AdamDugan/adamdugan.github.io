@@ -220,6 +220,7 @@ h3 {
 }
 
 .hero-text,
+.hero-kicker,
 .split-text p,
 .info-card p,
 .timeline-content p,
@@ -235,6 +236,13 @@ h3 {
 .hero-text {
   max-width: 58ch;
   margin: 1.5rem 0 0;
+}
+
+.hero-kicker {
+  max-width: 54ch;
+  margin: 1.25rem 0 0;
+  color: var(--teal-soft);
+  font-weight: 700;
 }
 
 .hero-actions {
