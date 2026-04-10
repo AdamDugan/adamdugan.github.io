@@ -1,75 +1,60 @@
 # Adam J. Dugan Website
 
-This repository contains a multi-page Quarto website for Adam J. Dugan, PhD.
+This repository contains the source for the personal and professional website of Adam J. Dugan, PhD.
 
-## Project Structure
+The site is built with [Quarto](https://quarto.org/) and published via GitHub Pages.
+
+## Overview
+
+The website is organized into a small set of pages:
+
+- `Home`
+- `Experience`
+- `Projects/Tools`
+- `Publications`
+- `RWE Focus`
+- `Contact`
+
+## Tech Stack
+
+- Quarto for site generation
+- Custom CSS for styling
+- Lightweight JavaScript for small UI behaviors
+- GitHub Pages for hosting
+
+## Repository Layout
 
 - `_quarto.yml`
-  Main Quarto project configuration, including navigation and output settings.
-- `index.qmd`
-  Homepage.
-- `experience.qmd`
-  Career timeline and professional background.
-- `projects.qmd`
-  Projects, tools, and interactive easter eggs.
-- `publications.qmd`
-  Selected publications and Google Scholar link.
-- `rwe-focus.qmd`
-  Perspective on real-world evidence and evidence-generation principles.
-- `contact.qmd`
-  Contact options and resume download.
+  Site configuration and navigation
+- `*.qmd`
+  Page content
+- `assets/`
+  Shared styles, scripts, images, and downloadable documents
 - `includes/`
-  Shared HTML includes for fonts, canvas background, and shared scripts.
-- `assets/css/`
-  Shared site styles.
-- `assets/js/`
-  Shared JavaScript for animations and interactive elements.
-- `assets/images/`
-  Images used by the site.
-- `assets/docs/`
-  Downloadable documents such as the resume.
+  Small shared HTML includes used across the site
 - `docs/`
-  Rendered site output for GitHub Pages.
+  Rendered output published by GitHub Pages
 
-## Local Development
+## Updating the Site
 
-1. Install the Quarto CLI, not just the R package.
-2. Open a terminal in this repository.
-3. Verify Quarto is available:
+To make changes locally:
 
-   ```powershell
-   quarto --version
-   ```
+```powershell
+quarto render
+```
 
-4. Render the site:
+To preview the site locally:
 
-   ```powershell
-   quarto render
-   ```
+```powershell
+quarto preview
+```
 
-5. Preview locally if desired:
+After rendering, commit both the source files and the updated `docs/` output before pushing.
 
-   ```powershell
-   quarto preview
-   ```
+## Publishing
 
-## GitHub Pages Deployment
-
-This project is configured to render into `docs/`.
-
-1. Run `quarto render`.
-2. Commit the source changes and the generated `docs/` output.
-3. Push to GitHub.
-4. In GitHub, open `Settings > Pages`.
-5. Set the source to `Deploy from a branch`.
-6. Choose the default branch and `/docs` folder.
+GitHub Pages should be configured to publish from the repository’s default branch using the `/docs` folder.
 
 If the repository is named `adamdugan.github.io`, the site will publish at:
 
 - `https://adamdugan.github.io/`
-
-## Notes
-
-- The current site preserves custom CSS and JavaScript rather than relying on a default Quarto theme.
-- Interactive features currently live on the `Projects/Tools` page.
-- The older single-page static site entrypoint has been superseded by the Quarto source files.
