@@ -7,7 +7,7 @@ title: Home
   <section class="hero reveal">
     <div class="hero-copy">
       <p class="eyebrow">Biostatistics / Real-World Evidence / Health Research</p>
-      <h1>Biostatistics leadership for regulatory-grade real-world evidence.</h1>
+      <h1>Biostatistics leadership for regulatory-grade real-world evidence</h1>
       <p class="hero-kicker">
         I lead statistical teams, study strategy, and analytic systems for high-quality RWE,
         with experience spanning medical affairs, translational science, and product-facing work.
