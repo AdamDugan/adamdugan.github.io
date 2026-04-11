@@ -36,9 +36,12 @@ title: Projects/Tools
         modeling, weighting, diagnostics, and interpretation in a more approachable format.
       </p>
       <p>
-        The app reflects the kind of tooling I enjoy building: practical, methodologically grounded,
-        and focused on helping people engage more clearly with real analytic decisions rather than
-        treating methods as black boxes.
+        In practice, I think it is very important to separate the design and analysis phases of a
+        causal inference workflow, with design decisions made blinded to the outcome. In this app,
+        I intentionally combine both phases to illustrate how the full workflow can be made
+        interactive. The app reflects the kind of tooling I enjoy building: practical,
+        methodologically grounded, and focused on helping people engage more clearly with real
+        analytic decisions rather than treating methods as black boxes.
       </p>
     </div>
     <div class="hero-actions">
