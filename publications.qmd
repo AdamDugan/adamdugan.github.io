@@ -24,6 +24,14 @@ title: Publications
           View on PubMed
         </a>
       </article>
+      <article class="publication-card">
+        <h3>Additional manuscripts currently under review</h3>
+        <p>Recent Tempus-era collaborative work in real-world genomic oncology</p>
+        <p>
+          Several additional manuscripts from my time at Tempus AI are currently under review and
+          will be added here as they become publicly available.
+        </p>
+      </article>
     </div>
     <div class="section-heading publication-subhead">
       <p class="eyebrow">Selected First-Author Work</p>
@@ -39,6 +47,27 @@ title: Publications
         <h3>Analysis of genes implicated in risk for LATE-NC and hippocampal sclerosis</h3>
         <p>Acta Neuropathologica Communications, 2021</p>
         <a href="https://pubmed.ncbi.nlm.nih.gov/34526147/" target="_blank" rel="noreferrer">View on PubMed</a>
+      </article>
+    </div>
+    <div class="section-heading publication-subhead">
+      <p class="eyebrow">Selected Collaborative Work</p>
+      <h2>Examples that show breadth across clinical and translational domains</h2>
+    </div>
+    <div class="publication-list">
+      <article class="publication-card">
+        <h3>Improved survival following transarterial radioembolization of infiltrative-appearance hepatocellular carcinoma</h3>
+        <p>Abdominal Radiology, 2021</p>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/33385248/" target="_blank" rel="noreferrer">View on PubMed</a>
+      </article>
+      <article class="publication-card">
+        <h3>Validation of the modified Bosniak classification system to risk stratify pediatric cystic renal masses</h3>
+        <p>Journal of Pediatric Urology, 2022</p>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/34961708/" target="_blank" rel="noreferrer">View on PubMed</a>
+      </article>
+      <article class="publication-card">
+        <h3>Stratification by obesity class, rather than age, can identify a higher percent of children at risk for non-alcoholic fatty liver disease and metabolic dysfunction</h3>
+        <p>Pediatric Obesity, 2022</p>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/34662928/" target="_blank" rel="noreferrer">View on PubMed</a>
       </article>
     </div>
     <p class="supporting-link">
