@@ -22,7 +22,7 @@ title: Home
       </p>
       <div class="hero-actions">
         <a class="button button-primary" href="experience.html">View Experience</a>
-        <a class="button button-secondary" href="projects.html">Explore Projects/Tools</a>
+        <a class="button button-secondary" href="projects.html">Explore Projects, Tools, and Interests</a>
         <a class="button button-secondary" href="contact.html">Contact</a>
       </div>
     </div>
@@ -169,8 +169,8 @@ title: Home
         <p>How I think about regulatory-grade study design, scientific quality, and execution.</p>
       </article>
       <article class="info-card">
-        <h3><a href="projects.html">Projects/Tools</a></h3>
-        <p>Internal tooling interests, interactive easter eggs, and space for future R and AI work.</p>
+        <h3><a href="projects.html">Projects, Tools, and Interests</a></h3>
+        <p>Shiny tools, methodological examples, and space for future R and AI-related work.</p>
       </article>
       <article class="info-card">
         <h3><a href="publications.html">Publications</a></h3>

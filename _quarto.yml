@@ -4,6 +4,7 @@ project:
   resources:
     - assets/images/**
     - assets/docs/**
+    - work/**
 
 website:
   title: "Adam J. Dugan, PhD"
@@ -14,7 +15,7 @@ website:
       - href: experience.qmd
         text: Experience
       - href: projects.qmd
-        text: Projects/Tools
+        text: Projects, Tools, and Interests
       - href: publications.qmd
         text: Publications
       - href: rwe-focus.qmd

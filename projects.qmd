@@ -1,13 +1,12 @@
----
-title: Projects/Tools
+title: Projects, Tools, and Interests
 ---
 
 ```{=html}
 <div class="page-shell page-shell-inner">
   <section class="section reveal">
     <div class="section-heading">
-      <p class="eyebrow">Projects/Tools</p>
-      <h2>R, tooling, and practical workflow design</h2>
+      <p class="eyebrow">Projects, Tools, and Interests</p>
+      <h2>R, methodological communication, and practical workflow design</h2>
     </div>
     <div class="split-text">
       <p>
@@ -16,10 +15,10 @@ title: Projects/Tools
         applications, and other tools that support real-world evidence generation in practice.
       </p>
       <p>
-        I am especially interested in small, purposeful tools that make complex methods more
-        understandable and easier to use well. That includes interactive tools that clarify study
-        design, diagnostics, and implementation choices in causal inference and real-world
-        evidence workflows.
+        I am also interested in methods communication: creating concise, well-structured examples
+        that make complex study-design ideas easier to understand without losing the underlying
+        rigor. Together, these projects reflect the mix of tooling, methodological thinking, and
+        practical implementation that I enjoy most.
       </p>
     </div>
   </section>
@@ -52,6 +51,35 @@ title: Projects/Tools
         rel="noreferrer"
       >
         Launch Propensity Weighting Workbench
+      </a>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <div class="section-heading">
+      <p class="eyebrow">Method Example</p>
+      <h2>Target Trial Emulation Study Example</h2>
+    </div>
+    <div class="split-text">
+      <p>
+        This is a concise web-based brief on target trial emulation in real-world evidence. The
+        emphasis is less on the technology and more on clearly presenting the underlying
+        study-design logic and methodological approach.
+      </p>
+      <p>
+        It reflects an area of work I care about a great deal: making rigorous causal inference
+        ideas easier to engage with for audiences working across science, analytics, and
+        evidence-generation teams.
+      </p>
+    </div>
+    <div class="hero-actions">
+      <a
+        class="button button-primary"
+        href="work/target-trial-emulation-example.html"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Open Target Trial Emulation Example
       </a>
     </div>
   </section>
