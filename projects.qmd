@@ -59,7 +59,7 @@ title: Projects, Tools, and Interests
   <section class="section reveal">
     <div class="section-heading">
       <p class="eyebrow">Method Example</p>
-      <h2>Target Trial Emulation Study Example</h2>
+      <h2>Target Trial Emulation Protocol Example</h2>
     </div>
     <div class="split-text">
       <p>
@@ -80,7 +80,7 @@ title: Projects, Tools, and Interests
         target="_blank"
         rel="noreferrer"
       >
-        Open Target Trial Emulation Example
+        Open Target Trial Emulation Protocol Example
       </a>
     </div>
   </section>
