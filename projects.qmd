@@ -27,7 +27,7 @@ title: Projects, Tools, and Interests
   <section class="section reveal">
     <div class="section-heading">
       <p class="eyebrow">Featured Example</p>
-      <h2>Propensity Weighting Workbench</h2>
+      <h2>Propensity Score Weighting Dashboard</h2>
     </div>
     <div class="split-text">
       <p>
@@ -51,7 +51,7 @@ title: Projects, Tools, and Interests
         target="_blank"
         rel="noreferrer"
       >
-        Launch Propensity Weighting Workbench
+        Launch Propensity Score Weighting Dashboard
       </a>
     </div>
   </section>
