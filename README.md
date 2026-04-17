@@ -51,9 +51,23 @@ quarto preview
 
 After rendering, commit both the source files and the updated `docs/` output before pushing.
 
+This repository also includes a GitHub Actions workflow that renders and deploys the site
+automatically on pushes to `main`.
+
 ## Publishing
 
-GitHub Pages should be configured to publish from the repository’s default branch using the `/docs` folder.
+GitHub Pages should be configured to publish using `GitHub Actions`.
+
+The workflow file lives at:
+
+- `.github/workflows/publish.yml`
+
+On each push to `main`, GitHub Actions will:
+
+1. Install Quarto
+2. Render the site
+3. Upload the rendered `docs/` directory
+4. Deploy the site to GitHub Pages
 
 If the repository is named `adamdugan.github.io`, the site will publish at:
 
