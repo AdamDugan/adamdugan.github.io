@@ -47,7 +47,7 @@ title: Projects, Tools, and Interests
     <div class="hero-actions">
       <a
         class="button button-primary"
-        href="https://adamdugan.shinyapps.io/propensity-weighting-workbench/"
+        href="https://adamdugan.shinyapps.io/propensity-score-weighting-dashboard/"
         target="_blank"
         rel="noreferrer"
       >
