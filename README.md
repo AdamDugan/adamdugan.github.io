@@ -10,7 +10,7 @@ The website is organized into a small set of pages:
 
 - `Home`
 - `Experience`
-- `Projects/Tools`
+- `Projects, Tools, and Interests`
 - `Publications`
 - `RWE Focus`
 - `Contact`
@@ -32,6 +32,8 @@ The website is organized into a small set of pages:
   Shared styles, scripts, images, and downloadable documents
 - `includes/`
   Small shared HTML includes used across the site
+- `work/`
+  Standalone HTML examples linked from the site
 - `docs/`
   Rendered output published by GitHub Pages
 
@@ -53,6 +55,23 @@ After rendering, commit both the source files and the updated `docs/` output bef
 
 This repository also includes a GitHub Actions workflow that renders and deploys the site
 automatically on pushes to `main`.
+
+## Updating Standalone HTML Examples
+
+Two method examples linked from the `Projects, Tools, and Interests` page are generated in a
+separate repository, `website-projects`, and then copied into this repository.
+
+Current files:
+
+- `work/clone_censor_example_analysis_nhefs.html`
+- `work/missing_data_attrition_example_nhefs.html`
+
+When those examples are updated in `website-projects`:
+
+1. Render the updated HTML files in the `website-projects` repository.
+2. Copy the updated HTML files into the `work/` folder of this repository, replacing the older versions.
+3. Run `quarto render`.
+4. Commit and push the updated source and rendered output.
 
 ## Publishing
 

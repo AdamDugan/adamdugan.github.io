@@ -88,28 +88,57 @@ title: Projects, Tools, and Interests
   <section class="section reveal">
     <div class="section-heading">
       <p class="eyebrow">Method Example</p>
-      <h2>Target Trial Emulation Protocol Example</h2>
+      <h2>Clone-Censor-Weight Example</h2>
     </div>
     <div class="split-text">
       <p>
-        This is a concise web-based brief on target trial emulation in real-world evidence. The
-        emphasis is less on the technology and more on clearly presenting the underlying
-        study-design logic and methodological approach.
+        This example walks through a clone-censor-weight style analysis in a concise,
+        web-based format. The emphasis is less on the technology and more on clearly showing the
+        underlying causal inference workflow and the logic behind each analytic step.
       </p>
       <p>
-        It reflects an area of work I care about a great deal: making rigorous causal inference
-        ideas easier to engage with for audiences working across science, analytics, and
+        It reflects my interest in presenting complex methods in a way that stays rigorous while
+        still being understandable to audiences working across science, analytics, and
         evidence-generation teams.
       </p>
     </div>
     <div class="hero-actions">
       <a
         class="button button-primary"
-        href="work/target-trial-emulation-example.html"
+        href="work/clone_censor_example_analysis_nhefs.html"
         target="_blank"
         rel="noreferrer"
       >
-        Open Target Trial Emulation Protocol Example
+        Open Clone-Censor-Weight Example
+      </a>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <div class="section-heading">
+      <p class="eyebrow">Method Example</p>
+      <h2>Missing Data and Attrition Example</h2>
+    </div>
+    <div class="split-text">
+      <p>
+        This example focuses on missing data and attrition in an applied causal inference setting.
+        It is designed as a concise, web-based walkthrough that highlights why these issues matter
+        and how they can influence interpretation if handled poorly.
+      </p>
+      <p>
+        Like the other methodological examples, the goal is to make the analytic reasoning more
+        explicit rather than to showcase technology for its own sake. It reflects my broader
+        interest in practical, readable communication of methodological choices.
+      </p>
+    </div>
+    <div class="hero-actions">
+      <a
+        class="button button-primary"
+        href="work/missing_data_attrition_example_nhefs.html"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Open Missing Data and Attrition Example
       </a>
     </div>
   </section>
